@@ -18,8 +18,8 @@ A complete Azure Virtual Desktop PoC with session hosts, Entra ID login, and opt
 
 **Available in two flavors:**
 
-#### 1. Bicep (Recommended for low-tech customers)
-Low-friction Azure-native deployment. Single resource group by default for fast cleanup.
+#### 1. Bicep (Recommended for low-friction setup)
+Azure-native deployment with minimal configuration. Single resource group by default for fast cleanup.
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FJPCortesP%2FAzureDemoBuilder%2Fmain%2FBicep%2FAVD%2520Simple%2520and%2520Quick%2Fmain.json)
 
@@ -76,7 +76,7 @@ AzureDemoBuilder/
 
 This repo supports a **two-lane delivery model**:
 
-- **Low-tech lane (Bicep)**: Click a button or run one command. Minimal inputs, opinionated defaults, fast PoC setup.
+- **Low-friction lane (Bicep)**: Click a button or run one command. Minimal inputs, opinionated defaults, fast PoC setup.
 - **Advanced lane (Terraform)**: Fork and customize. Full control over naming, sizing, networking, identity.
 
 Both lanes deploy the same infrastructure on the same opinionated architecture, just with different UX and flexibility.
