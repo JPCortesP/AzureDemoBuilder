@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "resourceGroupPrefix": {
+      "value": "demo"
+    },
+    "environment": {
+      "value": "demo"
+    },
+    "singleResourceGroupDeployment": {
+      "value": true
+    },
+    "sessionHostCount": {
+      "value": 2
+    },
+    "sessionHostVmSize": {
+      "value": "Standard_D2s_v3"
+    },
+    "adminUsername": {
+      "value": "azureadmin"
+    },
+    "adminPassword": {
+      "value": "ChangeMe!@123456"
+    },
+    "fslogixEnabled": {
+      "value": false
+    },
+    "fileShareQuotaGiB": {
+      "value": 100
+    },
+    "enableMonitoring": {
+      "value": false
+    },
+    "logAnalyticsRetentionDays": {
+      "value": 30
+    },
+    "vnetAddressSpace": {
+      "value": "10.0.0.0/16"
+    },
+    "computeSubnetAddressPrefix": {
+      "value": "10.0.1.0/24"
+    },
+    "customTags": {
+      "value": {
+        "CostCenter": "IT"
+      }
+    }
+  }
+}
